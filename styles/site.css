@@ -77,8 +77,8 @@ picture{
 
 img{
     width: 100%;
-    object-fit: cover;
-
+    height: 100%;
+    object-fit: fill;
 }
 
 .gallery{
@@ -86,14 +86,13 @@ img{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: stretch;
     width: 100%;
     height: 50%;
     
 }
 .gallery picture{
     width: 32%;
-    object-fit: cover;
+    margin-bottom: 2%;
 }
 
 .hidden-text{
