@@ -1,0 +1,130 @@
+:root{
+    --offblack: #1a1817;
+}
+html{
+    background-color: var(--offblack);
+    color: white;
+}
+
+body{
+    width: 70%;
+    min-height: 100vm;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fullscreen{
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    list-style-type: none;
+
+    padding: 0;
+    margin-bottom: 0;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 24pt;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+nav ul li h1 a{
+    font-size: 60pt;
+    align-self: center;
+}
+
+.active{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+hr{
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    font-size: 36pt;
+}
+
+p{
+    font-size: large;
+    text-align: justify;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+a:clicked{
+    color:inherit;
+}
+
+.hidden-text{
+    color:var(--offblack);
+}
+.hidden-text:hover{
+    color: white;
+}
+
+.monument-text p{
+    font-size: 48pt;
+    margin: 0;
+
+}
+em{
+    font-style:italic;
+}
+
+form{
+    width: 40%;
+    margin: 0 auto;
+}
+label, input, textarea{
+    display: block;
+    width: 100%;
+    margin: 2.5px 0;
+
+}
+
+form button{
+    margin-top: 2.5px;
+}
+textarea{
+    padding-bottom: 30%;
+}
+
+
+#map-block{
+    display: block;
+    width: 80%;
+    padding: 30% 0;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+
+footer{
+
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;    
+    text-align: center;
+
+
+}
+
+footer a{
+    color: white;
+}
