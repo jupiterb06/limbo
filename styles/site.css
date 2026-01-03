@@ -114,6 +114,51 @@ textarea{
     margin: 0 auto;
 }
 
+#you {
+	margin: 0px auto;
+
+}
+#videoElement {
+
+position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  object-fit: cover;
+background-color: #666;
+}
+#you-button{
+   position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 10;
+  object-fit: cover;
+  opacity:0;
+  cursor: pointer;
+}
+
+#flies {
+
+position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -200;
+  object-fit: cover;
+	background-color: #666;
+}
+
 
 footer{
 
@@ -127,4 +172,8 @@ footer{
 
 footer a{
     color: white;
+}
+
+.hidden{
+    display: none;
 }
