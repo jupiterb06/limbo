@@ -1,12 +1,13 @@
-:root{
+:root {
     --offblack: #1a1817;
 }
-html{
+
+html {
     background-color: var(--offblack);
     color: white;
 }
 
-body{
+body {
     width: 70%;
     min-height: 100vm;
 
@@ -14,10 +15,11 @@ body{
     margin-right: auto;
 }
 
-.fullscreen{
+.fullscreen {
     width: 100%;
 }
-nav ul{
+
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -28,109 +30,121 @@ nav ul{
     padding: 0;
     margin-bottom: 0;
 }
-nav ul li a{
+
+nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 24pt;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
-nav ul li h1 a{
+
+nav ul li h1 a {
     font-size: 60pt;
     align-self: center;
 }
 
-.active{
+.active {
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
 
-hr{
+hr {
     margin: 0 auto;
 }
-h2{
+
+h2 {
     text-align: center;
     font-size: 36pt;
 }
 
-p{
+p {
     font-size: large;
     text-align: justify;
 }
 
-a{
+a {
     color: white;
 }
-a:hover{
+
+a:hover {
     color: white;
 }
-a:clicked{
-    color:inherit;
+
+a:clicked {
+    color: inherit;
 }
 
-picture{
-    width:100%;
+picture {
+    width: 100%;
 }
 
-img{
+img {
     width: 100%;
     height: 100%;
     object-fit: fill;
 }
 
-.gallery{
+.gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
     height: 50%;
-    
+
 }
-.gallery picture{
+
+.gallery picture {
     width: 32%;
     margin-bottom: 2%;
 }
 
-.hidden-text{
-    color:var(--offblack);
+.hidden-text {
+    color: var(--offblack);
 }
-.hidden-text:hover{
+
+.hidden-text:hover {
     color: white;
 }
 
-.monument-text p{
+.monument-text p {
     font-size: 48pt;
     margin: 0;
 
 }
-em{
-    font-style:italic;
+
+em {
+    font-style: italic;
 }
 
-form{
+form {
     width: 40%;
     margin: 0 auto;
 }
-label, input, textarea{
+
+label,
+input,
+textarea {
     display: block;
     width: 100%;
     margin: 2.5px 0;
 
 }
 
-form button{
+form button {
     margin-top: 2.5px;
 }
-textarea{
+
+textarea {
     padding-bottom: 30%;
 }
 
 
-#map-block{
+#map-block {
     display: block;
     width: 80%;
     padding: 30% 0;
@@ -139,65 +153,119 @@ textarea{
 }
 
 #you {
-	margin: 0px auto;
+    margin: 0px auto;
 
 }
+
 #videoElement {
 
-position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  object-fit: cover;
-background-color: #666;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    object-fit: cover;
+    background-color: #666;
 }
-#you-button{
-   position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 10;
-  object-fit: cover;
-  opacity:0;
-  cursor: pointer;
+
+#you-button {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 10;
+    object-fit: cover;
+    opacity: 0;
+    cursor: pointer;
 }
 
 #flies {
 
-position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -200;
-  object-fit: cover;
-	background-color: #666;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -200;
+    object-fit: cover;
+    background-color: #666;
+}
+
+canvas {
+    border: 1px solid white;
 }
 
 
-footer{
+footer {
 
     width: 70%;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
     text-align: center;
 
 
 }
 
-footer a{
+footer a {
     color: white;
 }
 
-.hidden{
-    display: none;
+.checkbox-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.checkbox-group input{
+    width:15px;
+}
+#analysis-form{
+    width: 150px;
+}
+span {
+    font-size: large;
+    writing-mode: vertical-rl;
+}
+
+.canvas-label {
+    text-align: center;
+    margin:5px;
+    font-size: 48pt;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.analysis-row{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0;
+}
+
+#result {
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#retry{
+    width:fit-content;
+    margin: 5px auto;
+}
+
+.hidden {
+    display: none !important;
 }

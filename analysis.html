@@ -1,35 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>LIMBO</title>
-    <link rel="stylesheet" href="styles/site.css">
-  </head>
-  <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href = "map.html">MAP</a></li>
-                <li><a href = "things-to-do.html">THINGS TO DO</a></li>
-                <li><h1><a href = "index.html">LIMBO</a></h1></li>
-                <li><a href = "faq.html">FAQ</a></li>
-                <li><a href = "contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-        <hr>
-    </header>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LIMBO</title>
+  <link rel="stylesheet" href="styles/site.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="map.html">MAP</a></li>
+        <li><a href="things-to-do.html">THINGS TO DO</a></li>
+        <li>
+          <h1><a href="index.html">LIMBO</a></h1>
+        </li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+  <section>
+    <h2>IF YOU ARE READING THIS THEN YOU ARE DEAD</h2>
+    <p id="instructions">please indicate which of the attributes below best describe the space you are in and your
+      sensory and psychological experience within it. this will help determine your placement within LIMBO. you may
+      select as many of the options as you feel apply.</p>
+  </section>
+
+  <div class="analysis-row">
     <section>
-        <h2>IF YOU ARE READING THIS THEN YOU ARE DEAD</h2>
-        <p></p>
-    </section>
+      <form id="analysis-form"">
+      <div class=" checkbox-group">
+        <label for="familiar">familiar</label>
+        <input type="checkbox" id="familiar" name="familiar" />
+  </div>
 
-    <footer>
-        <a href = "https://jupiterbhanot.wordpress.com/">© Jupiter Bhanot 2026</a>
-    </footer>
+  <div class="checkbox-group">
+    <label for="enclosed">enclosed</label>
+    <input type="checkbox" id="enclosed" name="enclosed" />
+  </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <div class="checkbox-group">
+    <label for="aesthetic">aesthetic</label>
+    <input type="checkbox" id="aesthetic" name="aesthetic" />
+  </div>
 
-  </body>
+  <div class="checkbox-group">
+    <label for="utilitarian">utilitarian</label>
+    <input type="checkbox" id="utilitarian" name="utilitarian" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="realistic">realistic</label>
+    <input type="checkbox" id="realistic" name="realistic" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="fantastic">fantastic</label>
+    <input type="checkbox" id="fantastic" name="fantastic" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="barren">barren</label>
+    <input type="checkbox" id="barren" name="barren" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="crowded">crowded</label>
+    <input type="checkbox" id="crowded" name="crowded" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="disembodied">disembodied</label>
+    <input type="checkbox" id="disembodied" name="disembodied" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="unfinished">unfinished</label>
+    <input type="checkbox" id="unfinished" name="unfinished" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="nostalgic">nostalgic</label>
+    <input type="checkbox" id="nostalgic" name="nostalgic" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="uncanny">uncanny</label>
+    <input type="checkbox" id="uncanny" name="uncanny" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="surveilled">surveilled</label>
+    <input type="checkbox" id="surveilled" name="surveilled" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="visceral">visceral</label>
+    <input type="checkbox" id="visceral" name="visceral" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="clinical">clinical</label>
+    <input type="checkbox" id="clinical" name="clinical" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="intrusive">intrusive</label>
+    <input type="checkbox" id="intrusive" name="intrusive" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="comfortable">comfortable</label>
+    <input type="checkbox" id="comfortable" name="comfortable" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="purposeful">purposeful</label>
+    <input type="checkbox" id="purposeful" name="purposeful" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="conceptual">conceptual</label>
+    <input type="checkbox" id="conceptual" name="conceptual" />
+  </div>
+
+  <div class="checkbox-group">
+    <label for="still">still</label>
+    <input type="checkbox" id="still" name="still" />
+  </div>
+
+  <button type="submit" id="quiz-submit">submit</button>
+  </form>
+  </section>
+  <div class="hidden "id="result" >
+    <p class="canvas-label">present</p>
+
+    <div class="row">
+      <span class="canvas-label">dissociative</span>
+      <canvas id="canvas" width="400" height="400"></canvas>
+      <span class="canvas-label">interpretative</span>
+    </div>
+
+    <p class="canvas-label">absent</p>
+  <button id="retry" onclick="location.reload()">retry</button>
+
+  </div>
+  <footer>
+    <a href="https://jupiterbhanot.wordpress.com/">© Jupiter Bhanot 2026</a>
+  </footer>
+</body>
+
+
+
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="scripts/quiz.js"></script>
+</body>
+
 </html>
