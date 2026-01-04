@@ -100,14 +100,14 @@ form.addEventListener('submit', function(event) {
   ctx.strokeStyle= "#FFFFFF";
   ctx.fillStyle= "#FFFFFF";
   ctx.translate(200, 200);
-  ctx.beginPath();
-  ctx.moveTo(-200, 0);
-  ctx.lineTo(200, 0);
-  ctx.stroke();
-  ctx.moveTo(0, -200);
-  ctx.lineTo(0, 200);
-  ctx.stroke();
-  ctx.beginPath();
+  // ctx.beginPath();
+  // ctx.moveTo(-200, 0);
+  // ctx.lineTo(200, 0);
+  // ctx.stroke();
+  // ctx.moveTo(0, -200);
+  // ctx.lineTo(0, 200);
+  // ctx.stroke();
+  // ctx.beginPath();
 
   ctx.fillRect(x, y, 25, 25);
   
