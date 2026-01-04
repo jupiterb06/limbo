@@ -1,13 +1,15 @@
 :root {
     --offblack: #1a1817;
+
 }
 
 html {
-    background-color: var(--offblack);
     color: white;
+    background-color: var(--offblack);
 }
 
 body {
+
     width: 70%;
     min-height: 100vh;
 
@@ -15,6 +17,7 @@ body {
     
     display:flex;
     flex-direction: column;
+    padding: 0 25px;
 
 }
 
@@ -45,7 +48,7 @@ nav ul li a {
     font-size: 24pt;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, nav ul li a:focus {
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
@@ -69,6 +72,10 @@ h2 {
     font-size: 36pt;
 }
 
+h3{
+    font-size: 22pt;
+}
+
 p {
     font-size: large;
     text-align: justify;
@@ -78,7 +85,8 @@ a {
     color: white;
 }
 
-a:hover {
+
+a:hover, a:focus {
     color: white;
 }
 
@@ -115,7 +123,7 @@ img {
     color: var(--offblack) !important;
 }
 
-.hidden-text:hover {
+.hidden-text:hover, .hidden-text:focus {
     color: white !important;
 }
 
@@ -158,6 +166,11 @@ textarea {
     padding: 30% 0;
     background-color: gray;
     margin: 0 auto;
+}
+
+#map-block:hover{
+    cursor: pointer;
+    border:1px solid white;
 }
 
 #you {
@@ -234,6 +247,8 @@ footer a {
 .checkbox-group label{
     text-align:end;
     margin-right: 5px;
+    pointer-events: none;
+  cursor: default
 }
 .checkbox-group input{
     width:fit-content;
@@ -284,6 +299,15 @@ span {
     margin: 5px auto;
 }
 
+#firmament-body{
+    background-image: url("/images/sky.jpg");
+    text-align: left;
+    font-size: larger;
+}
+
+#firmament-body h2{
+    text-align: left;
+}
 .hidden {
     display: none !important;
 }

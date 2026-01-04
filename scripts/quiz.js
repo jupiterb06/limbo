@@ -1,18 +1,19 @@
 let x = 0;
 let y = 0;
 
+const canvas = document.getElementById("canvas")
 const ctx = document.getElementById("canvas").getContext("2d");
 
 const form = document.getElementById("analysis-form");
 
 //const desc = {property:"", pre:x, inter:y};
-const familiar = {property:"familiar", pre:50, inter:-25};
+const familiar = {property:"familiar", pre:150, inter:-25};
 
 const enclosed = {property:"enclosed", pre:25, inter:0};
 
 const aesthetic = {property:"aesthetic", pre:25, inter:-50};
 
-const utilitarian = {property:"utilitarian", pre:50, inter:-25};
+const utilitarian = {property:"utilitarian", pre:50, inter:-50};
 
 const realistic = {property:"realistic", pre:50, inter:0};
 
@@ -20,29 +21,29 @@ const fantastic = {property:"fantastic", pre:-25, inter:-25};
 
 const barren = {property:"barren", pre:0, inter:50};
 
-const crowded = {property:"crowded", pre:50, inter:-25};
+const crowded = {property:"crowded", pre:50, inter:-75};
 
 const disembodied = {property:"disembodied", pre:-75, inter:-50};
 
-const unfinished = {property:"unfinished", pre:-50, inter:25};
+const unfinished = {property:"unfinished", pre:-100, inter:25};
 
 const nostalgic = {property:"nostalgic", pre:-75, inter:0};
 
 const uncanny = {property:"uncanny", pre:-25, inter:25};
 
-const surveilled = {property:"surveilled", pre:-25, inter:75};
+const surveilled = {property:"surveilled", pre:-125, inter:75};
 
-const visceral = {property:"visceral", pre:50, inter:0};
+const visceral = {property:"visceral", pre:175, inter:0};
 
 const clinical = {property:"clinical", pre:-25, inter:-25};
 
 const intrusive = {property:"intrusive", pre:-50, inter:50};
 
-const comfortable = {property:"comfortable", pre:50, inter:-25};
+const comfortable = {property:"comfortable", pre:50, inter:-50};
 
-const purposeful = {property:"purposeful", pre:50, inter:0};
+const purposeful = {property:"purposeful", pre:75, inter:0};
 
-const conceptual = {property:"conceptual", pre:-75, inter:75};
+const conceptual = {property:"conceptual", pre:-125, inter:75};
 
 const still = {property:"still", pre:-75, inter:-25};
 
@@ -98,20 +99,23 @@ form.addEventListener('submit', function(event) {
   console.log(x,y);
 
   ctx.strokeStyle= "#FFFFFF";
+  ctx.lineWidth= 0.5;
   ctx.fillStyle= "#FFFFFF";
   ctx.translate(200, 200);
-  // ctx.beginPath();
-  // ctx.moveTo(-200, 0);
-  // ctx.lineTo(200, 0);
-  // ctx.stroke();
-  // ctx.moveTo(0, -200);
-  // ctx.lineTo(0, 200);
-  // ctx.stroke();
-  // ctx.beginPath();
+  ctx.beginPath();
+  ctx.moveTo(-200, 0);
+  ctx.lineTo(200, 0);
+  ctx.stroke();
+  ctx.moveTo(0, -200);
+  ctx.lineTo(0, 200);
+  ctx.stroke();
+  ctx.beginPath();
 
   ctx.fillRect(x, y, 25, 25);
   
-  console.log("drawn!");
+  console.log("hey, why are you inspecting the page? come on, be a good sport.");
+  console.log("if you're looking here for some extra content or secrets, sorry to disappoint you.")
+  console.log("LIMBO isn't a place where you get to cheat. there's no prize for being sneaky.");
 
   form.reset();
 
