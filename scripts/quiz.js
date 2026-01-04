@@ -115,7 +115,7 @@ form.addEventListener('submit', function(event) {
   
   console.log("hey, why are you inspecting the page? come on, be a good sport.");
   console.log("if you're looking here for some extra content or secrets, sorry to disappoint you.")
-  console.log("LIMBO isn't a place where you get to cheat. there's no prize for being sneaky.");
+  console.log("it's probably really easy to figure out how this mapping thing works, but it's meant to be more of a thought exercise than anything else.");
 
   form.reset();
 
