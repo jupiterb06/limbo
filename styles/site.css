@@ -300,7 +300,7 @@ span {
 }
 
 #firmament-body{
-    background-image: url("/images/sky.jpg");
+    background-image: url("images/sky.jpg");
     text-align: left;
     font-size: larger;
 }
