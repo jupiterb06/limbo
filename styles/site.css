@@ -6,6 +6,7 @@
 html {
     color: white;
     background-color: var(--offblack);
+    font-family: serif;
 }
 
 body {
