@@ -308,6 +308,20 @@ span {
 #firmament-body h2{
     text-align: left;
 }
+
+#firmament-body button{
+    background: none;
+    border:none;
+    font-family: serif;
+    color:white;
+    font-size: large;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#btn3{
+    font-weight: bold;
+}
 .hidden {
     display: none !important;
 }
