@@ -19,10 +19,12 @@ body {
     flex-direction: column;
     padding: 0 25px;
 
+    min-height: 100vh;
+
 }
 
 main{
-      flex: 1 0 auto;
+      flex-grow: 1;
 }
 
 .fullscreen {
@@ -248,8 +250,7 @@ footer {
 
     width: 100%;
     text-align: center;
-  flex-shrink: 0;
-  margin: 5px 0;
+    margin: 10px 0;
 
 }
 
