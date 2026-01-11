@@ -20,7 +20,7 @@
                 <li><a href="map">MAP</a></li>
                 <li><a href="things-to-do">THINGS TO DO</a></li>
                 <li id="home-link">
-                    <h1><a href="/.">LIMBO</a></h1>
+                    <h1><a href="home">LIMBO</a></h1>
                 </li>
                 <li><a class="active" href="faq">FAQ</a></li>
                 <li><a href="contact">CONTACT</a></li>
