@@ -17,13 +17,13 @@
     <header>
         <nav>
             <ul>
-                <li><a href="map.html">MAP</a></li>
-                <li><a href="things-to-do.html">THINGS TO DO</a></li>
+                <li><a href="map">MAP</a></li>
+                <li><a href="things-to-do">THINGS TO DO</a></li>
                 <li id="home-link">
-                    <h1><a href="index.html">LIMBO</a></h1>
+                    <h1><a href="index">LIMBO</a></h1>
                 </li>
-                <li><a class="active" href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li><a class="active" href="faq">FAQ</a></li>
+                <li><a href="contact">CONTACT</a></li>
             </ul>
         </nav>
         <hr>
@@ -46,7 +46,7 @@
         </p>
         <p>for more information about the border of consciousness, and ways to spend your simultaneously eternal and
             momentary
-            existence within it, <a href="things-to-do.html">click here.</a></p>
+            existence within it, <a href="things-to-do">click here.</a></p>
     </section>
     <section>
         <h3>if nothing exists, how am i accessing this webpage?</h3>
@@ -79,7 +79,7 @@
             that has no bearing on your experience here.
         </p>
         <p>
-            it's not <a href="firmament.html">god</a>, if that's what you're worried <a href="https://jupiterbhanot.wordpress.com/about/">about</a>.
+            it's not <a href="firmament">god</a>, if that's what you're worried <a href="https://www.jupiterbhanot.com/about/">about</a>.
         </p>
     </section>
     <section>
@@ -90,7 +90,7 @@
 </main>
 
     <footer>
-        <a href="https://jupiterbhanot.wordpress.com/">© Jupiter Bhanot 2026</a>
+        <a href="https://jupiterbhanot.com">© Jupiter Bhanot 2026</a>
     </footer>
 
 

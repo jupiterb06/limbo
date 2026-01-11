@@ -28,12 +28,12 @@
         <button id="btn2" class="hidden">what am i waiting for?</button>
 
         <p id="p3" class="hidden">you tell me.</p>
-        <a id="btn3" class="hidden" href="faq.html">ok</a>
+        <a id="btn3" class="hidden" href="faq">ok</a>
 
 
     </main>
     <footer>
-        <a href="https://jupiterbhanot.wordpress.com/">© Jupiter Bhanot 2026</a>
+        <a href="https://jupiterbhanot.com">© Jupiter Bhanot 2026</a>
     </footer>
 
     <script src="scripts/jquery-3.7.1.min.js"></script>
