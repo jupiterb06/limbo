@@ -27,7 +27,7 @@
     <main>
     <section>
         <h2>IF YOU ARE READING THIS THEN YOU ARE DEAD</h2>
-        <picture><img src="images/home-image.png" alt=""></picture>
+        <picture><img src="/images/home-image.png" alt=""></picture>
         <p>if you have access to this webpage, congratulations! you are among <em>the waiting dead</em>. you have been selected for an experimental new afterlife 
             model known as LIMBO. rather than a place of punishment or reward for your earthly deeds, 
             you have been placed in a transitory afterlife, existing on the border of consciousness. 
@@ -40,8 +40,8 @@
         <a href = "https://jupiterbhanot.com">© Jupiter Bhanot 2026</a>
     </footer>
 
-    <script src="scripts/jquery-3.7.1.min.js"></script>
-    <script src="scripts/you.js"></script>
+    <script src="/scripts/jquery-3.7.1.min.js"></script>
+    <script src="/scripts/you.js"></script>
 
   </body>
 </html>
