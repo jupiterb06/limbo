@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:image" content="/workspaces/limbo/images/home-image.png">
+
+    <title>LIMBO</title>
+    <link rel="stylesheet" href="styles/site.css">
+      <link rel="icon" type="image/x-icon" href="images/cropped-bunny-logo.png">
+
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href = "map">MAP</a></li>
+                <li><a href = "things-to-do">THINGS TO DO</a></li>
+                <li id="home-link"><h1><a href = "home/index">LIMBO</a></h1></li>
+                <li><a href = "faq">FAQ</a></li>
+                <li><a href = "contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+    <section>
+        <h2>IF YOU ARE READING THIS THEN YOU ARE DEAD</h2>
+        <picture><img src="images/home-image.png" alt=""></picture>
+        <p>if you have access to this webpage, congratulations! you are among <em>the waiting dead</em>. you have been selected for an experimental new afterlife 
+            model known as LIMBO. rather than a place of punishment or reward for your earthly deeds, 
+            you have been placed in a transitory afterlife, existing on the border of consciousness. 
+            unlike other models of the afterlife, LIMBO has been crafted to be both liminal and indefinite. 
+            this means that your soul is in a state of perpetual waiting. you will remain in LIMBO until the time comes. </p>
+            <p>for best results, please view this page at fullscreen, and allow camera access if prompted.</p>
+    </section>
+    </main>
+    <footer>
+        <a href = "https://jupiterbhanot.com">© Jupiter Bhanot 2026</a>
+    </footer>
+
+    <script src="scripts/jquery-3.7.1.min.js"></script>
+    <script src="scripts/you.js"></script>
+
+  </body>
+</html>
