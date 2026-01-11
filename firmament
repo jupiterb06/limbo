@@ -28,7 +28,7 @@
         <button id="btn2" class="hidden">what am i waiting for?</button>
 
         <p id="p3" class="hidden">you tell me.</p>
-        <a id="btn3" class="hidden" href="/faq">ok</a>
+        <a id="btn3" class="hidden" href="faq">ok</a>
 
 
     </main>
