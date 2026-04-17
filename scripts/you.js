@@ -10,7 +10,6 @@ if (navigator.mediaDevices.getUserMedia) {
     });
 }
 
-$("#you-button").click(function (e) { 
-        $("#you-button").addClass("hidden");
+$("#you").click(function (e) { 
         $("#you").addClass("hidden");
 });

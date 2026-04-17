@@ -92,9 +92,19 @@ a {
     color: white;
 }
 
-
-a:hover, a:focus {
+h2 a:hover{
+    background-color: var(--offblack);
     color: white;
+}
+
+a:hover{
+    background-color: white;
+    color: var(--offblack) !important;
+}
+
+a:focus {
+    background-color: white;
+    color: var(--offblack) !important;
 }
 
 a:visited {
@@ -146,6 +156,8 @@ img {
     z-index: 100;
     bottom: 0;
     right:0; 
+
+    font-size: 30pt;
 }
 
 em {
@@ -195,15 +207,20 @@ textarea {
     position:absolute;
     top:0;
     left:0;
+}
 
 #you {
-    margin: 0px auto;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
 
 }
 
 #videoElement {
 
-    position: fixed;
+    position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -216,13 +233,11 @@ textarea {
 }
 
 #you-button {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+           height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    position:absolute;
+
     z-index: 10;
     object-fit: cover;
     opacity: 0;
@@ -231,13 +246,15 @@ textarea {
 
 #flies {
 
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    height: 100%;
+
+    
+
     z-index: -200;
     object-fit: cover;
     background-color: #666;
