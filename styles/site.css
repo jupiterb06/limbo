@@ -140,6 +140,14 @@ img {
 
 }
 
+.back-to-home {
+    background-color: var(--offblack);
+    position:absolute;
+    z-index: 100;
+    bottom: 0;
+    right:0; 
+}
+
 em {
     font-style: italic;
 }
@@ -179,6 +187,14 @@ textarea {
     cursor: pointer;
     border:1px solid white;
 }
+
+#slideshow{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    position:absolute;
+    top:0;
+    left:0;
 
 #you {
     margin: 0px auto;
